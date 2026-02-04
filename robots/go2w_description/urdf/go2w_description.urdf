@@ -17,8 +17,7 @@
     <origin xyz="0 0 -0.05"/>
   </joint>
 
-  <!-- ================= FRONT LEFT LEG ================= -->
-
+  <!-- ================= FRONT LEFT ================= -->
   <link name="FL_hip">
     <visual>
       <geometry>
@@ -72,11 +71,10 @@
   <joint name="FL_foot_joint" type="fixed">
     <parent link="FL_calf"/>
     <child link="FL_foot"/>
-    <origin xyz="0 0 -0.2264"/>
+    <origin xyz="0 0 -0.2264" rpy="0 1.5708 1.5708"/>
   </joint>
 
-  <!-- ================= FRONT RIGHT LEG ================= -->
-
+  <!-- ================= FRONT RIGHT ================= -->
   <link name="FR_hip">
     <visual>
       <geometry>
@@ -130,11 +128,10 @@
   <joint name="FR_foot_joint" type="fixed">
     <parent link="FR_calf"/>
     <child link="FR_foot"/>
-    <origin xyz="0 0 -0.2264"/>
+    <origin xyz="0 0 -0.2264" rpy="0 1.5708 1.5708"/>
   </joint>
 
-  <!-- ================= REAR LEFT LEG ================= -->
-
+  <!-- ================= REAR LEFT ================= -->
   <link name="RL_hip">
     <visual>
       <geometry>
@@ -188,11 +185,10 @@
   <joint name="RL_foot_joint" type="fixed">
     <parent link="RL_calf"/>
     <child link="RL_foot"/>
-    <origin xyz="0 0 -0.2264"/>
+    <origin xyz="0 0 -0.2264" rpy="0 1.5708 1.5708"/>
   </joint>
 
-  <!-- ================= REAR RIGHT LEG ================= -->
-
+  <!-- ================= REAR RIGHT ================= -->
   <link name="RR_hip">
     <visual>
       <geometry>
@@ -246,7 +242,7 @@
   <joint name="RR_foot_joint" type="fixed">
     <parent link="RR_calf"/>
     <child link="RR_foot"/>
-    <origin xyz="0 0 -0.2264"/>
+    <origin xyz="0 0 -0.2264" rpy="0 1.5708 1.5708"/>
   </joint>
 
 </robot>
