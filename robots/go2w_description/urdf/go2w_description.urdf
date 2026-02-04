@@ -9,7 +9,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://go2w_description/dae/base.dae" />
+        <mesh filename="https://raw.githubusercontent.com/b-dosymzhan/unitree_ros/master/robots/go2w_description/dae/base.dae" />
       </geometry>
       <material name="深色橡胶_001-effect"><color rgba="0.6717055 0.6924257 0.7742702 1" /></material><material name="白色logo_001-effect"><color rgba="1 1 1 1" /></material><material name="黑色贴纸_007-effect"><color rgba="0.009018 0.009018 0.009018 1" /></material><material name="黑色金属_007-effect"><color rgba="0.01341 0.01341 0.01341 1" /></material><material name="黑色塑料_003-effect"><color rgba="0.023455 0.023455 0.023455 1" /></material></visual>
     <collision>
@@ -76,7 +76,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://go2w_description/dae/hip.dae" />
+        <mesh filename="https://raw.githubusercontent.com/b-dosymzhan/unitree_ros/master/robots/go2w_description/dae/hip.dae" />
       </geometry>
       <material name="深色橡胶_001-effect"><color rgba="0.6717055 0.6924257 0.7742702 1" /></material><material name="Material-effect"><color rgba="0.9 0.95 0.95 1" /></material></visual>
     <collision>
@@ -102,7 +102,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://go2w_description/dae/thigh.dae" />
+        <mesh filename="https://raw.githubusercontent.com/b-dosymzhan/unitree_ros/master/robots/go2w_description/dae/thigh.dae" />
       </geometry>
       <material name="深色橡胶_003-effect"><color rgba="0.6717055 0.6924257 0.7742702 1" /></material><material name="Material_009-effect"><color rgba="0.9 0.95 0.95 1" /></material></visual>
     <collision>
@@ -128,7 +128,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://go2w_description/dae/calf.stl" />
+        <mesh filename="https://raw.githubusercontent.com/b-dosymzhan/unitree_ros/master/robots/go2w_description/dae/calf.stl" />
       </geometry>
       <material name="">
         <color rgba="1 1 1 1" />
@@ -207,7 +207,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://go2w_description/dae/left_wheel.dae" />
+        <mesh filename="https://raw.githubusercontent.com/b-dosymzhan/unitree_ros/master/robots/go2w_description/dae/left_wheel.dae" />
       </geometry>
       <material name="">
         <color rgba="1 1 1 1" />
@@ -216,7 +216,7 @@
     <collision>
       <origin rpy="0 0 0" xyz="0 0.0 0" />
       <geometry>
-        <mesh filename="package://go2w_description/dae/left_wheel.dae" />
+        <mesh filename="https://raw.githubusercontent.com/b-dosymzhan/unitree_ros/master/robots/go2w_description/dae/left_wheel.dae" />
       </geometry>
     </collision>
   </link>
@@ -238,7 +238,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="3.1415 0 0" />
       <geometry>
-        <mesh filename="package://go2w_description/dae/hip.dae" />
+        <mesh filename="https://raw.githubusercontent.com/b-dosymzhan/unitree_ros/master/robots/go2w_description/dae/hip.dae" />
       </geometry>
       <material name="深色橡胶_001-effect"><color rgba="0.6717055 0.6924257 0.7742702 1" /></material><material name="Material-effect"><color rgba="0.9 0.95 0.95 1" /></material></visual>
     <collision>
@@ -264,7 +264,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://go2w_description/dae/thigh_mirror.dae" />
+        <mesh filename="https://raw.githubusercontent.com/b-dosymzhan/unitree_ros/master/robots/go2w_description/dae/thigh_mirror.dae" />
       </geometry>
       <material name="深色橡胶_012-effect"><color rgba="0.6717055 0.6924257 0.7742702 1" /></material><material name="Material_011-effect"><color rgba="0.9 0.95 0.95 1" /></material></visual>
     <collision>
@@ -290,7 +290,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://go2w_description/dae/calf_mirror.stl" />
+        <mesh filename="https://raw.githubusercontent.com/b-dosymzhan/unitree_ros/master/robots/go2w_description/dae/calf_mirror.stl" />
       </geometry>
       <material name="">
         <color rgba="1 1 1 1" />
@@ -369,7 +369,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://go2w_description/dae/right_wheel.dae" />
+        <mesh filename="https://raw.githubusercontent.com/b-dosymzhan/unitree_ros/master/robots/go2w_description/dae/right_wheel.dae" />
       </geometry>
       <material name="">
         <color rgba="1 1 1 1" />
@@ -378,7 +378,7 @@
     <collision>
       <origin rpy="0 0 0" xyz="0 -0.0 0" />
       <geometry>
-        <mesh filename="package://go2w_description/dae/right_wheel.dae" />
+        <mesh filename="https://raw.githubusercontent.com/b-dosymzhan/unitree_ros/master/robots/go2w_description/dae/right_wheel.dae" />
         
       </geometry>
     </collision>
@@ -400,7 +400,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 3.1415 0" />
       <geometry>
-        <mesh filename="package://go2w_description/dae/hip.dae" />
+        <mesh filename="https://raw.githubusercontent.com/b-dosymzhan/unitree_ros/master/robots/go2w_description/dae/hip.dae" />
       </geometry>
       <material name="深色橡胶_001-effect"><color rgba="0.6717055 0.6924257 0.7742702 1" /></material><material name="Material-effect"><color rgba="0.9 0.95 0.95 1" /></material></visual>
     <collision>
@@ -426,7 +426,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://go2w_description/dae/thigh.dae" />
+        <mesh filename="https://raw.githubusercontent.com/b-dosymzhan/unitree_ros/master/robots/go2w_description/dae/thigh.dae" />
       </geometry>
       <material name="深色橡胶_003-effect"><color rgba="0.6717055 0.6924257 0.7742702 1" /></material><material name="Material_009-effect"><color rgba="0.9 0.95 0.95 1" /></material></visual>
     <collision>
@@ -452,7 +452,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://go2w_description/dae/calf.stl" />
+        <mesh filename="https://raw.githubusercontent.com/b-dosymzhan/unitree_ros/master/robots/go2w_description/dae/calf.stl" />
       </geometry>
       <material name="">
         <color rgba="1 1 1 1" />
@@ -532,7 +532,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://go2w_description/dae/left_wheel.dae" />
+        <mesh filename="https://raw.githubusercontent.com/b-dosymzhan/unitree_ros/master/robots/go2w_description/dae/left_wheel.dae" />
       </geometry>
       <material name="">
         <color rgba="1 1 1 1" />
@@ -541,7 +541,7 @@
     <collision>
       <origin rpy="0 0 0" xyz="0 0.0 0" />
       <geometry>
-        <mesh filename="package://go2w_description/dae/left_wheel.dae" />
+        <mesh filename="https://raw.githubusercontent.com/b-dosymzhan/unitree_ros/master/robots/go2w_description/dae/left_wheel.dae" />
         
       </geometry>
     </collision>
@@ -563,7 +563,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="3.1415 3.1415 0" />
       <geometry>
-        <mesh filename="package://go2w_description/dae/hip.dae" />
+        <mesh filename="https://raw.githubusercontent.com/b-dosymzhan/unitree_ros/master/robots/go2w_description/dae/hip.dae" />
       </geometry>
       <material name="深色橡胶_001-effect"><color rgba="0.6717055 0.6924257 0.7742702 1" /></material><material name="Material-effect"><color rgba="0.9 0.95 0.95 1" /></material></visual>
     <collision>
@@ -589,7 +589,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://go2w_description/dae/thigh_mirror.dae" />
+        <mesh filename="https://raw.githubusercontent.com/b-dosymzhan/unitree_ros/master/robots/go2w_description/dae/thigh_mirror.dae" />
       </geometry>
       <material name="深色橡胶_012-effect"><color rgba="0.6717055 0.6924257 0.7742702 1" /></material><material name="Material_011-effect"><color rgba="0.9 0.95 0.95 1" /></material></visual>
     <collision>
@@ -615,7 +615,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://go2w_description/dae/calf_mirror.stl" />
+        <mesh filename="https://raw.githubusercontent.com/b-dosymzhan/unitree_ros/master/robots/go2w_description/dae/calf_mirror.stl" />
       </geometry>
       <material name="">
         <color rgba="1 1 1 1" />
@@ -694,7 +694,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://go2w_description/dae/right_wheel.dae" />
+        <mesh filename="https://raw.githubusercontent.com/b-dosymzhan/unitree_ros/master/robots/go2w_description/dae/right_wheel.dae" />
       </geometry>
       <material name="">
         <color rgba="1 1 1 1" />
@@ -703,7 +703,7 @@
     <collision>
       <origin rpy="0 0 0" xyz="0 -0.0 0" />
       <geometry>
-        <mesh filename="package://go2w_description/dae/right_wheel.dae" />
+        <mesh filename="https://raw.githubusercontent.com/b-dosymzhan/unitree_ros/master/robots/go2w_description/dae/right_wheel.dae" />
         
       </geometry>
     </collision>
